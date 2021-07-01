@@ -23,6 +23,6 @@ function onclick(e) {
   }
   intervalId = setInterval(() => {
     body.style.backgroundColor =
-      colors[randomIntegerFromInterval(0, colors.length)];
+      colors[randomIntegerFromInterval(0, colors.length - 1)];
   }, 1000);
 }
